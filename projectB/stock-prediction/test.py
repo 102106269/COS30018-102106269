@@ -7,7 +7,7 @@ from lxml.html.clean import Cleaner
 from stock_prediction import create_model, load_data
 from parameters import *
 import h5py
-file_path = r'C:\Users\vidga\Documents\GitHub\COS30018-102106269\projectB\stock-prediction\results\2024-08-17_AMZN-sh-1-sc-1-sbd-0-huber_loss-adam-LSTM-seq-50-step-15-layers-2-units-256.h5'
+file_path = r'C:\Users\vidga\Documents\GitHub\COS30018-102106269\projectB\stock-prediction\results\2024-09-03_AMZN-sh-1-sc-1-sbd-0-huber_loss-adam-LSTM-seq-50-step-15-layers-2-units-256.h5'
 with h5py.File(file_path, 'r') as f:
 
     def plot_graph(test_df):
